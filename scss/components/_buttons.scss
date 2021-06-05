@@ -1,0 +1,26 @@
+.button-shop {
+  border: 1px solid $app-color-secondary1;
+  padding: 2% 4%;
+  font-family: $app-f-family2;
+  font-size: $app-f-size-medium;
+  color: $app-color-secondary1;
+  font-weight: $app-fw-bold;
+  background: $app-color-primary1;
+  text-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  &:hover {
+    border-color: $app-color-primary3;
+  }
+  &:focus {
+    color: $app-color-secondary3;
+  }
+}
+
+@media (min-width: 992px) {
+  .button-shop {
+    font-size: $app-f-size-large;
+  }
+}

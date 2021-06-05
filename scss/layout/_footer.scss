@@ -1,0 +1,49 @@
+footer {
+  background: $app-color-secondary1;
+  text-align: left;
+}
+
+.footer {
+  position: relative;
+}
+.newsletter {
+  width: 100%;
+  color: $app-color-primary1;
+  display: block;
+  text-align: left;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: $app-f-family1;
+  font-size: $app-f-size-medium;
+
+  .newsletter__email {
+    margin-bottom: 5%;
+    font-size: $app-f-size-xx-large;
+  }
+  .newsletter__input {
+    font-family: $app-f-family2;
+    width: 80%;
+    padding: 1.5%;
+    margin-top: 1%;
+    font-weight: $app-fw-bold;
+  }
+}
+
+.subscribe {
+  color: white;
+  font-family: $app-f-family1;
+  color: $app-color-secondary1;
+  font-size: $app-f-size-x-large;
+  font-weight: $app-fw-bold;
+  writing-mode: vertical-rl;
+  background: $app-color-primary1;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  height: 100%;
+}
